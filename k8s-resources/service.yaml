@@ -4,7 +4,7 @@ metadata:
   name: nginx-service
 spec:
   selector:
-    app.kubernetes.io/name: proxy
+    name: proxy
   ports:
     - protocol: TCP
       port: 8081

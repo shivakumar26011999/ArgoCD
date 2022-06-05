@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   labels:
-    app.kubernetes.io/name: proxy
+    name: proxy
 spec:
   replicas: 3
   selector:
